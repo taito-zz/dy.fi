@@ -1,12 +1,20 @@
 from setuptools import find_packages
 from setuptools import setup
 
+import os
+
+
+long_description = (
+    open(os.path.join("dy", "fi", "docs", "README.rst")).read() + "\n" +
+    open(os.path.join("dy", "fi", "docs", "HISTORY.rst")).read() + "\n" +
+    open(os.path.join("dy", "fi", "docs", "CONTRIBUTORS.rst")).read())
+
 
 setup(
     name='dy.fi',
     version='0.0',
-    description="Checks global IP address change and informs currenty IP address to dy.fi.",
-    long_description=open("README.rst").read(),
+    description="Adds commands to checks dynamic IP address change and informs currenty IP address to dy.fi.",
+    long_description=long_description,
     # Get more strings from
     # http://pypi.python.org/pypi?:action=list_classifiers
     classifiers=[
