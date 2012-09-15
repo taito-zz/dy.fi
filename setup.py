@@ -24,4 +24,7 @@ setup(
     install_requires=[
         'setuptools'],
     entry_points="""
+    [console_scripts]
+    dyfi = dy.fi:update_ip
+    dyfi-last-updated =dy.fi:last_updated
     """)

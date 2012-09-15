@@ -1,4 +1,0 @@
-ip: 000.000.000.000
-useraccount: TESTUSERACCOUNT
-password: TESTPASSWORD
-hostname: HOSTNAME.TEST
