@@ -13,7 +13,7 @@ long_description = (
 setup(
     name='dy.fi',
     version='0.1',
-    description="Adds commands to checks dynamic IP address change and informs currenty IP address to dy.fi.",
+    description="Adds commands to check dynamic IP address change and inform currenty IP address to dy.fi.",
     long_description=long_description,
     # Get more strings from
     # http://pypi.python.org/pypi?:action=list_classifiers
