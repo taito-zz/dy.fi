@@ -14,7 +14,6 @@ Update dy.fi dynamic IP address with USERACCOUNT and PASSWORD and HOSTNAMES:
 """
 
 from datetime import datetime
-from dy.fi.config import DATA
 
 import getopt
 import logging
@@ -45,7 +44,6 @@ def usage(code, msg=''):
 
 
 def update_ip():
-    shortopts = 'u:p:'
     try:
         optlist, hostnames = getopt.getopt(sys.argv[1:], 'p:u:')
     except getopt.error, msg:
