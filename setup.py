@@ -23,7 +23,7 @@ setup(
     keywords='',
     author='Taito Horiuchi',
     author_email='taito.horiuchi@gmail.com',
-    url='',
+    url='https://github.com/taito/dy.fi',
     license='BSD',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['dy'],
