@@ -16,6 +16,7 @@ Update dy.fi dynamic IP address with USERACCOUNT and PASSWORD and HOSTNAMES:
 from datetime import datetime
 
 import getopt
+import ipgetter
 import logging
 import os
 import sys
@@ -49,7 +50,7 @@ def update_ip():
     except getopt.error, msg:
         usage(1, msg)
 
-    ip = urllib2.urlopen('http://ipcheck.ieserver.net').read().strip()
+    ip = ipgetter.myip()
 
     items = dict(optlist)
     try:
