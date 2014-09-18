@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='dy.fi',
-    version='0.1',
+    version='0.2',
     description="Adds commands to check dynamic IP address change and inform currenty IP address to dy.fi.",
     long_description=open("README.rst").read(),
     # Get more strings from
